@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    background-color: #303030;
+    min-height: calc(100vh - 10px);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    text-align: -webkit-center;
+    flex-direction: column;
+}
+
+header h1 {
+    color: snow;
+}
+
+.traducao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonTraducao {
+    position: relative;
+    margin: 5px;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    box-shadow: 8px 8px 0 #111;
+}
+
+.buttonTraducao:hover {
+    box-shadow: none;
+}
+
+.buttonTraducao:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #111;
+    border-radius: 8px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.buttonTraducao:hover:after {
+    transform: translate(0, 0);
+}
+
+.buttonTraducao:active {
+    background-color: #ffdeda;
+    outline: 0;
+}
+
+.buttonTraducao:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .buttonTraducao {
+        padding: 0 40px;
+    }
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.foto img {
+    box-sizing: border-box;
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.header__imagem__texto {
+    max-width: 800px;
+    width: 100%;
+}
+
+.header__imagem__texto h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header__imagem__texto h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.header__imagem__texto h3 {
+    font-size: 1.5em;
+    max-width: 600px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: #1E8AF7;
+}
+
+.divisao__header__main {
+    height: 10px;
+    background-color: snow;
+}
+
+.midias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    background-color: #1E8AF7;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    flex: 0 0 20%;
+    background-color: #1E8AF7;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.option {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 80%;
+}
+
+.project-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
+    grid-gap: 75px;
+    list-style-position: inside;
+}
+
+.content h2,
+h3 {
+    text-align: center;
+}
+
+.content li {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: white;
+
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.project-content {
+    display: none;
+}
+
+.project-content.active {
+    display: block;
+}
+
+footer {
+    background-color: #303030;
+}
+
+.linkedin {
+    background: url('/linkedin.png') center/cover no-repeat;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.github {
+    background: url('/github.png') center/cover no-repeat;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.gmail {
+    background: url('/gmail.png') center/cover no-repeat;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+}

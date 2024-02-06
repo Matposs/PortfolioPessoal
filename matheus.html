@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <title>Matheus Poss</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="traducao">
+            <button class="buttonTraducao" role="button" onclick="changeLanguage('pt')">PT</button>
+            <button class="buttonTraducao" role="button" onclick="changeLanguage('en')">EN</button>
+        </div>
+        <div class="header__imagem__texto">
+            <h1 class="translate" data-pt="Matheus Poss" data-en="Matheus Poss">Matheus Poss</h1>
+            <div class="foto">
+                <img src="foto.png" alt="foto">
+            </div>
+            <h2 class="translate" data-pt="Desenvolvedor Fullstack Jr" data-en="Fullstack Jr Developer"></h2>
+            <h3 class="translate"
+                data-pt="Focado em solucionar problemas, ajudar pessoas e, pouco a pouco, melhorar a mim e ao mundo."
+                data-en="My focus is to solve problems, help out people and, little by little, improve myself and the world">
+            </h3>
+        </div>
+    </header>
+    <main>
+        <div class="divisao__header__main"></div>
+        <section class="portfolio">
+            <nav class="menu">
+                <div class="option" onclick="showContent('projeto1')" data-pt="Experiência profissional"
+                    data-en="Professional Experience"></div>
+                <div class="option" onclick="showContent('projeto2')" data-pt="Experiência pessoal"
+                    data-en="Personal Experience"></div>
+                <div class="option" onclick="showContent('projeto3')" data-pt="Habilidades" data-en="Skills">
+                </div>
+                <div class="option" onclick="showContent('projeto4')" data-pt="Sobre" data-en="About"></div>
+            </nav>
+            <div class="content">
+                <div id="projeto1" class="project-content">
+                    <h2 class="translate" data-pt="Estagiário desenvolvedor Fullstack"
+                        data-en="Intern Fullstack Developer"></h2>
+                    <h3>12/2022 - 08/2023</h3>
+                    <ul>
+                        <li>
+                            <p class="translate"
+                                data-pt="Criar e implementar funcionalidades no sistema a partir de especificações."
+                                data-en="Create and implement system features from specifications."></p>
+                        </li>
+                        <li>
+                            <p class="translate"
+                                data-pt="Desenvolver, otimizar e corrigir funcionalidades Java no backend."
+                                data-en="Develop, optimize, and correct Java backend functionalities."></p>
+                        </li>
+                        <li>
+                            <p class="translate"
+                                data-pt="Utilizando Angular, Javascript, CSS e HTML para criar interfaces simples, seguras e intuitivas."
+                                data-en="Using Angular, Javascript, CSS, and HTML to create simple, secure, and intuitive interfaces.">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="translate" data-pt="Produzir e corrigir linhas de comandos SQL."
+                                data-en="Produce and correct SQL command lines."></p>
+                        </li>
+                        <li>
+                            <p class="translate"
+                                data-pt="Procurar, reportar e corrigir falhas no sistema em todas as camadas da aplicação."
+                                data-en="Search, report, and fix system flaws at all application layers."></p>
+                        </li>
+                        <li>
+                            <p class="translate" data-pt="Acompanhar rotinas de automação com o uso do Jenkins."
+                                data-en="Monitor automation routines using Jenkins."></p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="projeto2" class="project-content">
+                    <h2 class="translate" data-pt="Projetos caseiros" data-en="Personal Projects"></h2>
+                    <h3>01/2020 ⇒ </h3>
+                    <ul>
+                        <li>
+                            <p class="translate"
+                                data-pt="Desenvolvimento de sistemas na linguagem JAVA Sistemas de: Vendas, Estacionamento, Streaming, etc."
+                                data-en="Development of systems in the JAVA language: Sales, Parking, Streaming, etc.">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="translate"
+                                data-pt="Criação de sites utilizando as linguagens HTML, CSS, PHP e JAVASCRIPT Conhecimento em: Páginas dinâmicas, Integração front-end back-end e APIs."
+                                data-en="Creation of websites using HTML, CSS, PHP, and JAVASCRIPT Knowledge in: Dynamic pages, Front-end and back-end integration, and APIs.">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="translate"
+                                data-pt="Gerenciamento de bancos de dados relacional e não relacional e conhecimento das consultas SQL."
+                                data-en="Management of relational and non-relational databases and knowledge of SQL queries.">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="translate" data-pt="Inglês C1 com facilidade inclusive na fala."
+                                data-en="English C1 with ease in speaking.">
+                            </p>
+                        </li>
+                        <li>
+                            <p class="translate" data-pt="Experiência com vendas e atendimento ao cliente."
+                                data-en="Experience with sales and customer service."></p>
+                        </li>
+                        <li>
+                            <p>
+                                <span class="translate" data-pt="Criação do site: "
+                                    data-en="Creation of the website: "></span>
+                                <a href="https://fabricadedocinhos.com" target="_blank" class="translate-link"
+                                    data-pt="Fabricadedocinhos." data-en="Fabricadedocinhos.">Fabricadedocinhos.</a>
+                            </p>
+
+                        </li>
+                        <li>
+                            <p class="translate"
+                                data-pt="Experiência sólida em desenvolver, corrigir e otimizar operações de CRUD."
+                                data-en="Solid experience in developing, fixing, and optimizing CRUD operations.">
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="projeto3" class="project-content">
+                    <h2 data-pt="Hard & Soft skills" data-en="Hard & Soft skills">Hard & Soft skills</h2>
+                    <div class="skills-container">
+                        <ul class="skill-list hardSkill">
+                            <li>
+                                <p data-pt="Java" data-en="Java">Java</p>
+                            </li>
+                            <li>
+                                <p data-pt="JavaScript" data-en="JavaScript">JavaScript</p>
+                            </li>
+                            <li>
+                                <p data-pt="Angular" data-en="Angular">Angular</p>
+                            </li>
+                            <li>
+                                <p data-pt="Git" data-en="Git">Git</p>
+                            </li>
+                            <li>
+                                <p data-pt="MySQL" data-en="MySQL">MySQL</p>
+                            </li>
+                            <li>
+                                <p data-pt="C#" data-en="C#">C#</p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Microserviços" data-en="Microservices"></p>
+                            </li>
+                            <li>
+                                <p data-pt="Backend" data-en="Backend">Backend</p>
+                            </li>
+                            <li>
+                                <p data-pt="Frontend" data-en="Frontend">Frontend</p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Banco de dados" data-en="Databases"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="POO" data-en="OOP"></p>
+                            </li>
+                        </ul>
+                        <ul class="skill-list softSkill">
+                            <li>
+                                <p class="translate" data-pt="Comunicativo" data-en="Communicative"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Ambicioso" data-en="Ambitious"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Paciente" data-en="Patient"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Prestativo" data-en="Helpful"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Disciplinado" data-en="Disciplined"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Flexível" data-en="Flexible"></p>
+                            </li>
+                            <li>
+                                <p class="translate" data-pt="Pontual" data-en="Committed"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="projeto4" class="project-content">
+                    <h2 class="translate" data-pt="Um pouco do Matheus" data-en="A bit about Matheus"></h2>
+                    <p class="translate"
+                        data-pt="Tenho 25 anos e a 4 venho me dedicado a entrar no mundo da tecnologia, desde a faculdade me interessei mais pelo back-end do que pelo front, mas depois de trabalhar como fullstack eu percebi que o que eu gostava mesmo era de resolver problemas, foi ai que me encontrei nesta área!"
+                        data-en="I'm 25 years old and for 4 years I've been dedicated to entering the world of technology. Since college, I was more interested in the back-end than the front, but after working as a fullstack, I realized that what I really liked was solving problems. That's where I found myself in this area!">
+                    </p>
+                    <p class="translate"
+                        data-pt="Sempre tive um sentimento de que gostaria fazer algo pelas pessoas, e essa área me proporciona isso, com pequenas ou grandes coisas podemos facilitar a vida de muitas pessoas."
+                        data-en="I've always had a feeling that I would like to do something for people, and this area provides that. With small or big things, we can make life easier for many people.">
+                    </p>
+                    <p class="translate"
+                        data-pt="Fora da zona do trabalho, gosto bastante de ficar ao ar livre, de academia, esportes, mas também gosto muito de todos os tipos de jogos, desde jogos on-line até jogos de tabuleiro. Sou casado e pai só de pet."
+                        data-en="Outside the work zone, I really like being outdoors, going to the gym, playing sports, but I also enjoy all types of games, from online games to board games. I'm married and a pet parent.">
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="divisao__header__main"></div>
+    <footer class="midias">
+        <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/matheus-poss-4b09b4234/"></a>
+        <a target="_blank" class="github" href="https://github.com/Matposs"></a>
+        <a class="gmail" href="mailto:teste@gmail.com"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
