@@ -221,24 +221,24 @@ footer {
 
 .linkedin {
     background: url('/linkedin.png') center/cover no-repeat;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     background-color: white;
     border-radius: 50%;
 }
 
 .github {
     background: url('/github.png') center/cover no-repeat;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     background-color: white;
     border-radius: 50%;
 }
 
 .gmail {
     background: url('/gmail.png') center/cover no-repeat;
-    height: 120px;
-    width: 120px;
+    height: 80px;
+    width: 80px;
     background-color: white;
     border-radius: 50%;
 }
