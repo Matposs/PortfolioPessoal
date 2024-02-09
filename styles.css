@@ -220,7 +220,7 @@ footer {
 }
 
 .linkedin {
-    background: url('/linkedin.png') center/cover no-repeat;
+    background: url('linkedin.png') center/cover no-repeat;
     height: 80px;
     width: 80px;
     background-color: white;
@@ -228,7 +228,7 @@ footer {
 }
 
 .github {
-    background: url('/github.png') center/cover no-repeat;
+    background: url('github.png') center/cover no-repeat;
     height: 80px;
     width: 80px;
     background-color: white;
@@ -236,7 +236,7 @@ footer {
 }
 
 .gmail {
-    background: url('/gmail.png') center/cover no-repeat;
+    background: url('gmail.png') center/cover no-repeat;
     height: 80px;
     width: 80px;
     background-color: white;
